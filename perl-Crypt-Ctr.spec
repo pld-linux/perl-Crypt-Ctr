@@ -35,7 +35,7 @@ mieszaj±ca z klasy Digest::, o ile tylko obs³uguje metodê add.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
