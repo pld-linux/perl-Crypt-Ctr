@@ -37,7 +37,7 @@ mieszaj±ca z klasy Digest::, o ile tylko obs³uguje metodê add.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
