@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	Ctr
 Summary:	Crypt::Ctr Perl module - encrypt data in Counter Mode
-Summary(pl):	Modu³ Perla Crypt::Ctr - szyfruj±cy dane w trybie licznika
+Summary(pl.UTF-8):   ModuÅ‚ Perla Crypt::Ctr - szyfrujÄ…cy dane w trybie licznika
 Name:		perl-Crypt-Ctr
 Version:	0.01
 Release:	4
@@ -24,13 +24,13 @@ Crypt:: class can be used, as long as it supports the blocksize and
 keysize methods. Any hash function in the Digest:: class can be used,
 as long as it supports the add method.
 
-%description -l pl
-Implementacja ogólnego trybu licznika (Generic Counter Mode) w czystym
-Perlu. Modu³ ten tworzy strumieniowy szyfr z blokowego szyfru lub
-kryptograficznej funkcji mieszaj±cej i zwraca go jako obiekt. Mo¿e byæ
+%description -l pl.UTF-8
+Implementacja ogÃ³lnego trybu licznika (Generic Counter Mode) w czystym
+Perlu. ModuÅ‚ ten tworzy strumieniowy szyfr z blokowego szyfru lub
+kryptograficznej funkcji mieszajÄ…cej i zwraca go jako obiekt. MoÅ¼e byÄ‡
 wykorzystany dowolny szyfr blokowy z klasy Crypt::, o ile tylko
-obs³uguje metody blocksize i keysize. Mo¿e byæ u¿yta dowolna funkcja
-mieszaj±ca z klasy Digest::, o ile tylko obs³uguje metodê add.
+obsÅ‚uguje metody blocksize i keysize. MoÅ¼e byÄ‡ uÅ¼yta dowolna funkcja
+mieszajÄ…ca z klasy Digest::, o ile tylko obsÅ‚uguje metodÄ™ add.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
