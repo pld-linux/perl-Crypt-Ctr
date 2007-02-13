@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	Ctr
 Summary:	Crypt::Ctr Perl module - encrypt data in Counter Mode
-Summary(pl.UTF-8):   Moduł Perla Crypt::Ctr - szyfrujący dane w trybie licznika
+Summary(pl.UTF-8):	Moduł Perla Crypt::Ctr - szyfrujący dane w trybie licznika
 Name:		perl-Crypt-Ctr
 Version:	0.01
 Release:	4
