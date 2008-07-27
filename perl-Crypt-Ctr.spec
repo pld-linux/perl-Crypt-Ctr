@@ -5,7 +5,7 @@ Summary:	Crypt::Ctr Perl module - encrypt data in Counter Mode
 Summary(pl.UTF-8):	Moduł Perla Crypt::Ctr - szyfrujący dane w trybie licznika
 Name:		perl-Crypt-Ctr
 Version:	0.01
-Release:	4
+Release:	5
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
