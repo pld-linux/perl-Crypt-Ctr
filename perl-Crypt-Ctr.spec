@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	Ctr
+%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::Ctr Perl module - encrypt data in Counter Mode
 Summary(pl.UTF-8):	Moduł Perla Crypt::Ctr - szyfrujący dane w trybie licznika
 Name:		perl-Crypt-Ctr
@@ -10,8 +10,9 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2f5e1192078827c1425ae2d9e527211b
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Crypt-Ctr/
 BuildRequires:	perl-Crypt-CFB
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
