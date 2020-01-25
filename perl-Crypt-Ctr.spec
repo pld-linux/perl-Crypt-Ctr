@@ -1,6 +1,5 @@
 %define		pdir	Crypt
 %define		pnam	Ctr
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::Ctr Perl module - encrypt data in Counter Mode
 Summary(pl.UTF-8):	Moduł Perla Crypt::Ctr - szyfrujący dane w trybie licznika
 Name:		perl-Crypt-Ctr
